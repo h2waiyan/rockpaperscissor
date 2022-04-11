@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
     <script src="external.js"></script>
 </head>
+
 <body>
-   
+    <div class="center">
+
+        <div>
+            <h1>
+                Choose your weapons to Fight!
+            </h1>
+        </div>    
+            <div>
+                <p>Choose wisely or regret in another life.</p>
+            </div>
+            
+       
+
+        <div>
+            <div class="row">
+                <button id = "rock-btn" class="btn" type="button" onClick="playerSelect('rock')">
+                    👊 Rock
+                </button>
+
+                <button  id = "paper-btn" class="btn" type="button" onClick="playerSelect('paper')">
+                    🖐️ Paper
+                </button>
+
+                <button  id = "scissor-btn" class="btn" type="button" onClick="playerSelect('scissor')">
+                    ✌️ Scissor
+                </button>
+            </div>
+
+        </div>
+
+        <div>
+            <p id="playerSelection"> </p>
+            <p id="computerSelection"> </p>
+
+            <p id="result"></p>
+
+            <p id="mark"></p>
+
+            <p id="final"></p>
+
+        </div>
+
+        <div id="restart" style = "display :none">
+            <button class="btn" type="button" onClick="restart()">
+                Restart
+            </button>
+        </div>
+
+    </div>
 </body>
+
 </html>

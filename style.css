@@ -1,0 +1,22 @@
+.center {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.btn{
+    height: 50px;
+}
+
+#mark{
+    font-weight: bold;
+}
+
+#final{
+    font-size: 30px;
+    font-weight: bold;
+}
